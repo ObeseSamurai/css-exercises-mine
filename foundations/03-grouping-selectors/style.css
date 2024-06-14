@@ -1,0 +1,14 @@
+button {
+    font-size: 64px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button.b1 {
+    background-color: black;
+    color: white;
+}
+
+button.b2 {
+    background-color: yellow;
+    color: black;
+}
