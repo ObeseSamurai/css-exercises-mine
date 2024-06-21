@@ -5,7 +5,57 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.header {
+  background-color: #eeeeee;
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px;
+  gap: 15px;
+
+  max-height: 5vh;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.content {
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  flex: 1;
+  padding: 10px;
+  gap: 15px;
+
+}
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px;
+  gap: 15px;
+
+
+  max-height: 5vh;
+}
+
 
 img {
   width: 600px;
@@ -23,4 +73,24 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border: 2px solid rgb(224, 224, 224);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: gray;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
 }
